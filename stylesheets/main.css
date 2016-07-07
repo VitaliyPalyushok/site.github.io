@@ -1,0 +1,330 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Сетка
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body 
+{
+	background: #293f50;
+	color: #888;
+	font: 300 16px/22px "Roboto","Open Sans", "Helvetica Neue", Helvetica,Arial,sans-serif;
+
+}
+/*==============
+  ПОЛОСИ
+  =============*/
+
+
+/*===========
+ Типографія
+ ============ */
+
+h1, h2, h3, h4 
+{
+color: #648880;
+}
+h1
+{
+	font-size: 36px;
+	line-height: 44px; 
+}
+h2
+{
+	font-size: 24px;
+	line-height: 44px;
+}
+h3
+{
+	font-size: 21px;
+}
+h4
+{
+	font-size: 18px;
+}
+h5
+{
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+/*===========
+	HEADER
+=============*/
+.logo  
+{
+  border-top: 4px solid #648880;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 10px 0 22px 0;
+  text-transform: uppercase;
+
+ }
+
+
+.date /* дата проведення (в топі) */
+{
+  text-align: left;
+	margin: 66px 0px 22px 0;
+  margin-left: 52.3%;
+
+}
+
+/*==============
+	НАВІГАЦІЯ
+=================*/
+.navigation_btns /*ТОП */
+{	
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 20px;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	text-align: left;
+  vertical-align: bottom;
+
+	}
+
+  .navigation_btns li,
+  .foot_navigation li
+{
+	display: inline-block;
+	margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 30px;
+	vertical-align: top;
+}
+.navigation_btns li:last-child,
+.foot_navigatin li:last-child
+{
+	margin-right: 0;
+}
+
+
+/*============
+   ССИЛКИ
+=============*/
+a:hover {
+  color: #a9b2b9;
+}
+a {
+  color: #648880;
+  text-decoration: none;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+
+
+/*=========
+ОСНОВА 
+===========*/
+
+.introWords
+{
+  clear: both;
+	line-height: 44px;
+	padding: 22px 80px 40px 80px;
+	margin-top: 20px;
+	margin-left:50px;
+	color: #fff;
+	text-align: center;
+
+	
+}
+.introWords h2
+{
+	font-size: 36px;
+	font-weight: 400;
+
+}
+.introWords p
+{
+	font-size: 24px;
+	font-weight: 100;
+}
+
+	/*=============
+	КНОПКИ
+	===============
+ */
+.btn
+{
+  border-radius: 7px;
+  border: solid;
+  border-color: #fff;
+  color: #fff;
+  padding: 20px 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-left: 41%;
+  margin-bottom: 40px;
+
+  
+
+	}
+.btn-alt:hover 
+	{
+		color: #648880;
+		background: #fff;
+	} 
+
+/*==========
+	СЕКЦІЇ 
+============*/
+.section1,
+.section2,
+.section3
+{
+	display: inline-block;
+	max-width: 30%;
+	margin: 0 10px 0 30px;
+  text-align: left;
+  word-spacing: 1.5px;
+	letter-spacing: 0.5px;
+	vertical-align: top;
+  color: black;
+  font-weight: 400;
+
+
+}
+
+.teaser a:hover h3
+{
+	color: #293f50;
+}
+.teaser a:hover h5
+{
+	color: black;
+}
+/*===========
+ПОЛОСА СЕКЦІЙ
+==============*/
+.row
+  {
+  	background-color: #fff;
+  	padding: 20px 0 20px 0;
+  	width: 100%;
+  	
+  }
+
+/*=========
+Картинки 
+===========*/
+img
+{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  width: 65%;
+  
+  
+}
+
+
+/*==================
+Колір для навігації
+====================*/
+.header_color a,
+.footer_color a
+{
+	color:#fff; 
+}
+.header_color a:hover,
+.footer_color a:hover
+{
+	color: #648880;
+}
+
+
+
+/*============
+ПІДВАЛ
+===============*/
+
+.foot
+{
+color: #648880;
+font-size: 14px;
+padding-top: 44px;
+padding-bottom: 44px;
+}
+.foot small
+{
+
+	float: left;
+	font-weight: 400;
+
+}
+.foot_navigation
+{
+	text-align: right;
+}
+
+
